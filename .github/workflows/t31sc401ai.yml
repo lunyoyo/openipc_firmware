@@ -1,4 +1,4 @@
-name: buildt31t40
+name: buildt31sc401ai
 on:
   pull_request:
     branches:
@@ -24,11 +24,6 @@ jobs:
           - {"platform": "t31", "release": "lite"}
           - {"platform": "t31", "release": "ultimate"}
 
-          # Ingenic [T40]
-          - {"platform": "t40", "release": "lite"}
-          - {"platform": "t40", "release": "ultimate"}
-
-         
 
     steps:
       - name: Checkout source
